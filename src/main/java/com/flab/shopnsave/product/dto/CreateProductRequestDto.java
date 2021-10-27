@@ -1,6 +1,6 @@
-package com.flab.shopnsave.dto.product;
+package com.flab.shopnsave.product.dto;
 
-import com.flab.shopnsave.domain.Product;
+import com.flab.shopnsave.product.domain.Product;
 import lombok.*;
 
 import javax.validation.constraints.NotBlank;

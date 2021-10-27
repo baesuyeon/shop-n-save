@@ -1,11 +1,11 @@
-package com.flab.shopnsave.service;
+package com.flab.shopnsave.product;
 
-import com.flab.shopnsave.domain.Product;
-import com.flab.shopnsave.dto.product.CreateProductRequestDto;
-import com.flab.shopnsave.dto.product.ModifyProductRequestDto;
+import com.flab.shopnsave.product.domain.Product;
+import com.flab.shopnsave.product.dto.CreateProductRequestDto;
+import com.flab.shopnsave.product.dto.ModifyProductRequestDto;
 import com.flab.shopnsave.enums.Role;
-import com.flab.shopnsave.exception.product.NotFoundProductException;
-import com.flab.shopnsave.mapper.ProductMapper;
+import com.flab.shopnsave.product.exception.NotFoundProductException;
+import com.flab.shopnsave.product.mapper.ProductMapper;
 import com.flab.shopnsave.member.domain.AuthMember;
 import com.flab.shopnsave.member.exception.ForbiddenException;
 import lombok.RequiredArgsConstructor;

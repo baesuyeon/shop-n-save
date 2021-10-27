@@ -1,6 +1,6 @@
-package com.flab.shopnsave.domain;
+package com.flab.shopnsave.product.domain;
 
-import com.flab.shopnsave.dto.product.ModifyProductRequestDto;
+import com.flab.shopnsave.product.dto.ModifyProductRequestDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

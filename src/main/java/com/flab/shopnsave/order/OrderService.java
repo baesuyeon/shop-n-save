@@ -1,6 +1,6 @@
 package com.flab.shopnsave.order;
 
-import com.flab.shopnsave.domain.Product;
+import com.flab.shopnsave.product.domain.Product;
 import com.flab.shopnsave.member.domain.AuthMember;
 import com.flab.shopnsave.order.domain.Order;
 import com.flab.shopnsave.order.domain.OrderProduct;
@@ -8,7 +8,7 @@ import com.flab.shopnsave.order.dto.CreateOrderProductRequestDto;
 import com.flab.shopnsave.order.dto.CreateOrderRequestDto;
 import com.flab.shopnsave.order.exception.NotFoundOrderException;
 import com.flab.shopnsave.order.mapper.OrderMapper;
-import com.flab.shopnsave.service.ProductService;
+import com.flab.shopnsave.product.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

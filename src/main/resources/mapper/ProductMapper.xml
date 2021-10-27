@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.flab.shopnsave.mapper.ProductMapper">
+<mapper namespace="com.flab.shopnsave.product.mapper.ProductMapper">
 
-    <insert id="create" parameterType="com.flab.shopnsave.domain.Product">
+    <insert id="create" parameterType="com.flab.shopnsave.product.domain.Product">
         INSERT INTO PRODUCT(product_name, fixed_price, seller_id)
         VALUES(#{productName}, #{fixedPrice}, #{sellerId})
     </insert>
 
-    <select id="getById" parameterType="long" resultType="com.flab.shopnsave.domain.Product">
+    <select id="getById" parameterType="long" resultType="com.flab.shopnsave.product.domain.Product">
         SELECT id, product_name, fixed_price, seller_id, sales_yn, create_date
             FROM PRODUCT
             WHERE id = #{id}
     </select>
 
-    <update id="modifyProduct" parameterType="com.flab.shopnsave.domain.Product">
+    <update id="modifyProduct" parameterType="com.flab.shopnsave.product.domain.Product">
         UPDATE PRODUCT
         SET product_name = #{productName},
             fixed_price = #{fixedPrice}
         WHERE id=#{id}
     </update>
 
-    <select id="getByIdList" resultType="com.flab.shopnsave.domain.Product">
+    <select id="getByIdList" resultType="com.flab.shopnsave.product.domain.Product">
         SELECT id, product_name, fixed_price, seller_id, sales_yn, create_date
         FROM PRODUCT
         WHERE id IN

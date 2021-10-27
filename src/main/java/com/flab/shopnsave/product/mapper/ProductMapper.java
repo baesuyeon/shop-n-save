@@ -1,6 +1,6 @@
-package com.flab.shopnsave.mapper;
+package com.flab.shopnsave.product.mapper;
 
-import com.flab.shopnsave.domain.Product;
+import com.flab.shopnsave.product.domain.Product;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
