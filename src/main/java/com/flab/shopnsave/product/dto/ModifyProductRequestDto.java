@@ -1,4 +1,4 @@
-package com.flab.shopnsave.dto.product;
+package com.flab.shopnsave.product.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

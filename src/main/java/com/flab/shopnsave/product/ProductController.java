@@ -1,13 +1,12 @@
-package com.flab.shopnsave.controller;
+package com.flab.shopnsave.product;
 
 import com.flab.shopnsave.annotation.Authority;
 import com.flab.shopnsave.annotation.LoginMember;
-import com.flab.shopnsave.domain.Product;
-import com.flab.shopnsave.dto.product.CreateProductRequestDto;
-import com.flab.shopnsave.dto.product.ModifyProductRequestDto;
+import com.flab.shopnsave.product.domain.Product;
+import com.flab.shopnsave.product.dto.CreateProductRequestDto;
+import com.flab.shopnsave.product.dto.ModifyProductRequestDto;
 import com.flab.shopnsave.enums.Role;
 import com.flab.shopnsave.member.domain.AuthMember;
-import com.flab.shopnsave.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

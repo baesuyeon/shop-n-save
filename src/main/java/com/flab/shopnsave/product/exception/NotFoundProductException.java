@@ -1,4 +1,4 @@
-package com.flab.shopnsave.exception.product;
+package com.flab.shopnsave.product.exception;
 
 import com.flab.shopnsave.exception.BusinessException;
 import org.springframework.http.HttpStatus;
