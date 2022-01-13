@@ -35,6 +35,7 @@ dependencies {
 	implementation group: 'org.springframework.session', name: 'spring-session-data-redis', version: '2.3.2.RELEASE'
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '2.3.9.RELEASE'
 	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.0'
+	implementation 'org.flywaydb:flyway-core:7.15.0'
 }
 
 test {
